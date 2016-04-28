@@ -2,6 +2,7 @@
 <html>
 <head>
   <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
@@ -10,13 +11,25 @@
   <section class="dark banner">
     <img src="img/logo.jpg" class="logo">
     <div class="lead">
-      <h1 class="title">Immerse yourself.</h1>
-      <h2 class="subtitle">Octopus rift</h2> 
-      <div class="button">Pre-order now</div> 
+      <div class="text">
+        <h1 class="title">Immerse yourself.</h1>
+        <h2 class="subtitle">Octopus rift</h2> 
+      </div>
+      <div class="action">
+        <div class="button">Pre-order now</div>  
+      </div>
     </div>
     <img src="img/rift-1.jpg" class="banner-img">
   </section>
   <section class="light"></section>
 
 </body>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".text").delay(800).fadeIn(1000);
+    $(".action").delay(2000).fadeIn(1000);
+  })
+  
+</script>
 </html>
