@@ -1,0 +1,75 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+section {
+  height: 600px;
+}
+
+.lead {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+.title, .subtitle {
+  font-weight: 100;
+}
+
+.title {
+  font-size: 2.7em;
+  margin-bottom: 0;
+  color: white;
+  letter-spacing: .05em;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.button {
+  border: 1px solid #a6a6a6;
+  border-radius: 22px;
+  padding: 10px 14px;
+  display: inline-block;
+  color: #a6a6a6;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.button:hover {
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+.dark {
+  background: black;
+}
+
+.light {
+  background: white;
+}
+
+.banner {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 80px;
+}
+
+.banner-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 450px;
+  z-index: 0;
+}
