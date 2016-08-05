@@ -92,4 +92,34 @@ p {
   font-size: 1.1em;
 }
 
+@media (max-width: 768px){
+
+  .banner {
+    height: 550px;
+  }
+
+  .banner-img {
+    width: 70%;
+    height: auto;
+  }
+
+  .lead {
+    top: 120px;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .light {
+    padding: 20px;
+  }
+
+  .light h1 {
+    font-size: 1.5em;
+  }
+
+
+}
+
 
